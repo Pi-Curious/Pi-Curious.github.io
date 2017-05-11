@@ -1,3 +1,52 @@
 #panelbodyintro {
 	font-size: 20px;
 }
+
+.lead {
+	background: rgba(255, 255, 255, 0.1);
+	position: inherit;
+	margin: 85px 85px;
+	border-radius: 50px;
+}
+
+.slogan{
+	color: rgb(255,235,43);
+}
+
+@media screen and (min-width: 400px){
+	.lead{
+		margin: 50px 50px;
+	}
+
+	.head-event {
+		font-size: 20px;
+	}
+}
+
+.head-event {
+	font-size: 28px;
+}
+
+.head-event i {
+	font-size: 20px;
+}
+
+.head-event{
+	text-decoration: none;
+	color: rgb(72, 232,101);
+	font-weight: 600;
+}
+
+.head-event a {
+	text-decoration: none;
+	color: rgb(75,144,252);
+	font-weight: 600;
+}
+
+.head-event a:hover {
+	color: rgb(72, 232,101);
+}
+
+.contact-foot {
+
+}
